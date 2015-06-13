@@ -2,6 +2,7 @@
  * Created by GustavoGana on 6/11/15. SDI section 2
  */
 //Gana_Gustavo_Expressions_Worksheet//
+    // I added alerts for fun//
 var height = prompt("Please enter your height in inches");//collect height info
 var weight = prompt("Please enter weight in pounds");//collect weight info
 var bmi = weight / (height * height) * 703;//multiply the height by height then multiply by 703. divide by weight

@@ -15,7 +15,7 @@ var idealWeight = weight - extraPounds;// subtracted weight with extra weight
 console.log("Your ideal weight for your height is " + idealWeight);// result is ideal weight
 alert("Your ideal weight for your height is " + idealWeight +"lbs");//alert displaying ideal weight
 var weightLose  = prompt("How many pounds would you like to loose?");//pop up asking how many pounds to lose
-var calories = 3500;// calories to burn to loose 1 pound
+var calories = 3500;//calories to burn to loose 1 pound
 var poundsLoose = calories * weightLose;//multiply calories and desired pounds to loose
 console.log("You have to burn a total of " + poundsLoose + " calories");//text diplaying total calories need to burn
 alert("You have to burn a total of " + poundsLoose + " calories");//alert displaying calories needed to burn

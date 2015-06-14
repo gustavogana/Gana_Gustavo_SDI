@@ -17,12 +17,16 @@ if(kidHeight > minHeaight){
     //sorry you have growing to do
     console.log("Sorry kid, you've got some growing to do first!");
 }
-var budget = 300;
+var budget = 100;
 var iPhonePrice = 199.99;
-var paycheck = 200;
+var wonLottery = true;
 
-if(iPhonePrice){
+if(iPhonePrice < budget || wonLottery === true){
     console.log("we can by the phone!");
 }else{
     console.log("no phone for you!!");
 }
+var age = 6;
+var book;
+book = (age < 10) ? "green eggs and ham" : "the time machine";
+console.log(book);

@@ -26,3 +26,12 @@ if(weight <= maxWeight){
 }else{
     console.log("The plane will not fly!!");
 }
+var armor = 1200;
+var gun = 800;
+var bonus = prompt("How much is your bonus to purchase equipment?");
+if(bonus > armor && gun){
+    console.log("you can buy equipment");
+}else{
+    console.log("Need more money");
+}
+(oldEnough > 25) ? console.log("You can apply for captain") : console.log("Wait a few more years");

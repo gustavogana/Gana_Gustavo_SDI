@@ -1,7 +1,5 @@
 //Gana_Gustavo_Conditionals_Assignment
 //06/17/2015
-var sex = prompt("Please enter sex");
-if ()
 var age = prompt("PLease enter age");
 console.log("You are  " + age + " year's old ");
 var minAge = 21;
@@ -22,8 +20,8 @@ if (height >= minHeight){
     console.log("Sorry pal, you need to grow some more to pilot the ship!!");
     alert("Sorry pal, you need to grow some more to pilot the ship!!")
 }
-var weight = prompt("PLease enter weight");
-console.log(weight);
+var weight = prompt("Please enter weight in pounds");
+console.log("Your weight is " + weight + " Lbs");
 var maxWeight = 180;
 if (weight <= maxWeight){
     console.log("You meet the weight restrictions to pilot one of our fighter crafts!!");

@@ -8,7 +8,7 @@ if(oldEnough >= minAge){
 }else{
     console.log("Try again when your old enough");
 }
-
+(oldEnough > 25) ? console.log("You can apply for captain") : console.log("Wait a few more years");
 var height = prompt("How tall are you in inches?");
 var minHeight = 70;
 console.log("You are " + height + " inches tall");
@@ -34,4 +34,3 @@ if(bonus > armor && gun){
 }else{
     console.log("Need more money");
 }
-(oldEnough > 25) ? console.log("You can apply for captain") : console.log("Wait a few more years");

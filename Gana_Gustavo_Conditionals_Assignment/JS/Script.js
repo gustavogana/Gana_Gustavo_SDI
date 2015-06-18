@@ -12,11 +12,11 @@ var capAge = 25;
 (oldEnough >= capAge) ? console.log("You can apply for captain") : console.log("Wait a few more years");// ternary displaying two different messages depending on user inout
 var height = prompt("How tall are you in inches?");//prompt asking for height
 var minHeight = 70;// var with min height
-var wShoes = 72;
+var wShoes = 68;
 console.log("You are " + height + " inches tall");//display console text about height
 if(height >= minHeight){// going to see if tall enough
     console.log("You can be an infantry man");//console display
-}else if(height > wShoes ){
+}else if(height >= wShoes ){
     console.log("with shoes you are tall enough to fight");//console display
 }else{
     console.log("Desk job for you");
@@ -50,3 +50,7 @@ if(oldEnough == capAge){//determine free gear based on rank
 }else{
     console.log("You tried to get free stuff");//console display if true
 }
+/* I typed in different age, height, weight and bonus for many different results. typing 18 for age will say
+"welcome to military". typing 25 will say "welcome to military" but also " you can apply for captain".
+did it for all the prompts and everything works well.
+ */

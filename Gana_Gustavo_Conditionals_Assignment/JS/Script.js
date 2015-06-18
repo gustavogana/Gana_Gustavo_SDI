@@ -5,6 +5,8 @@ console.log("your age is " + oldEnough);//display age on console
 var minAge = 18;//min age fot math
 if(oldEnough >= minAge){//if old enough vs min age
     console.log("Welcome to military");//display message in console
+}else if (oldEnough == 0) {
+    console.log("Don't you have an age?");
 }else{
     console.log("Try again when your old enough");//display message stating negative response
 }
@@ -12,22 +14,23 @@ var capAge = 25;
 (oldEnough >= capAge) ? console.log("You can apply for captain") : console.log("Wait a few more years");// ternary displaying two different messages depending on user inout
 var height = prompt("How tall are you in inches?");//prompt asking for height
 var minHeight = 70;// var with min height
-var wShoes = 68;
 console.log("You are " + height + " inches tall");//display console text about height
 if(height >= minHeight){// going to see if tall enough
     console.log("You can be an infantry man");//console display
-}else if(height >= wShoes ){
-    console.log("with shoes you are tall enough to fight");//console display
+}else if(height == 0){
+    console.log("You don't have a height?");//console display
 }else{
     console.log("Desk job for you");
 }
 var weight = prompt("How much do you weigh?");//prompt asking user to input weight
-var maxWeight = 185;//var with max weight
-console.log("You weigh "+ weight + " lbs");//console display weight
-if(weight <= maxWeight){//decision to make based on user input
-    console.log("You can fly planes");//console display
+var minWeight = 185;//var with max weight
+console.log("You weigh " + weight + " lbs");//console display weight
+if(weight >= minWeight){//decision to make based on user input
+    console.log("Welcome, please go to our gym");//console display
+}else if(weight == 0){
+    console.log("WOW that's really light, like a feather");//console display
 }else{
-    console.log("The plane will not fly!!");//console display
+    console.log("Too puny!!");//console display
 }
 var armor = 1200;//var for armor cost
 console.log("A single piece of armor cost " + armor + " dollars");//console display single price
@@ -36,8 +39,10 @@ console.log("A single gun cost " + gun + " dollars");//console display single pr
 var bonus = prompt("How much is your bonus to purchase equipment?");//user input for desired bonus
 if(bonus > armor && gun){//decision if enough money to purchase items
     console.log("you can buy equipment");//console display based on user input
+}else if(bonus == 0){
+    console.log("You can't buy anything, hopefully your old enough to be a captain");
 }else{
-    console.log("Need more money");//console display based on user input
+    console.log("You need more money");
 }
 var armorCount = bonus / armor;//divided armor and bonus to see how many i can buy
 console.log("You can buy " + armorCount + "  pieces of armor with your bonus");//console display amount of each

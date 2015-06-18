@@ -6,7 +6,7 @@ var minAge = 18;//min age fot math
 if(oldEnough >= minAge){//if old enough vs min age
     console.log("Welcome to military");//display message in console
 }else if (oldEnough == 0) {
-    console.log("Don't you have an age?");
+    console.log("Don't you have an age?");//validate prompt
 }else{
     console.log("Try again when your old enough");//display message stating negative response
 }
@@ -18,9 +18,9 @@ console.log("You are " + height + " inches tall");//display console text about h
 if(height >= minHeight){// going to see if tall enough
     console.log("You can be an infantry man");//console display
 }else if(height == 0){
-    console.log("You don't have a height?");//console display
+    console.log("You don't have a height?");//validate prompt
 }else{
-    console.log("Desk job for you");
+    console.log("Desk job for you");//console text
 }
 var weight = prompt("How much do you weigh?");//prompt asking user to input weight
 var minWeight = 185;//var with max weight
@@ -28,7 +28,7 @@ console.log("You weigh " + weight + " lbs");//console display weight
 if(weight >= minWeight){//decision to make based on user input
     console.log("Welcome, please go to our gym");//console display
 }else if(weight == 0){
-    console.log("WOW that's really light, like a feather");//console display
+    console.log("WOW that's really light, like a feather");//validate prompt
 }else{
     console.log("Too puny!!");//console display
 }
@@ -40,9 +40,9 @@ var bonus = prompt("How much is your bonus to purchase equipment?");//user input
 if(bonus > armor && gun){//decision if enough money to purchase items
     console.log("you can buy equipment");//console display based on user input
 }else if(bonus == 0){
-    console.log("You can't buy anything, hopefully your old enough to be a captain");
+    console.log("You can't buy anything, hopefully your old enough to be a captain");//validate prompt
 }else{
-    console.log("You need more money");
+    console.log("You need more money");//console text
 }
 var armorCount = bonus / armor;//divided armor and bonus to see how many i can buy
 console.log("You can buy " + armorCount + "  pieces of armor with your bonus");//console display amount of each

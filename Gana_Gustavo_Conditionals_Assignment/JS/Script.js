@@ -1,22 +1,25 @@
 //Gana_Gustavo_Conditionals_Assignment
 //06/17/2015
 var oldEnough = prompt("How old are you?");//prompt with age input
-console.log(" your age is " + oldEnough);//display age on console
+console.log("your age is " + oldEnough);//display age on console
 var minAge = 18;//min age fot math
 if(oldEnough >= minAge){//if old enough vs min age
     console.log("Welcome to military");//display message in console
 }else{
     console.log("Try again when your old enough");//display message stating negative response
 }
+var capAge = 25;
+(oldEnough >= capAge) ? console.log("You can apply for captain") : console.log("Wait a few more years");// ternary displaying two different messages depending on user inout
 var height = prompt("How tall are you in inches?");//prompt asking for height
 var minHeight = 70;// var with min height
-var capAge = 25;
+var wShoes = 72;
 console.log("You are " + height + " inches tall");//display console text about height
-(oldEnough >= capAge) ? console.log("You can apply for captain") : console.log("Wait a few more years");// ternary displaying two different messages depending on user inout
 if(height >= minHeight){// going to see if tall enough
     console.log("You can be an infantry man");//console display
+}else if(height > wShoes ){
+    console.log("with shoes you are tall enough to fight");//console display
 }else{
-    console.log("Desk job for you");//console display
+    console.log("Desk job for you");
 }
 var weight = prompt("How much do you weigh?");//prompt asking user to input weight
 var maxWeight = 185;//var with max weight

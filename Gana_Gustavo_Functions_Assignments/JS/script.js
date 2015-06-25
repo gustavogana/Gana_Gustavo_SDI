@@ -35,7 +35,18 @@ if (age <= 45){
     console.log("You had better days")
     alert("You had better days");
 }
-function ageTotal(yearsPassed){
-    var ageTotal = yearsPassed * age;
-    console.log(agr)
+function ageTotal(time){
+    var ageTotal = time * 31556926;
+    console.log("You would be " + ageTotal + " years old if you traveled that distanced \nbut you would have to be immortal");
+        alert("You would be " + ageTotal + " years old if you traveled that distanced \nbut you would have to be immortal");
 }
+ageTotal(age);
+ageTotal(1);
+ageTotal(100);
+
+var fuel = function (gas, distance) {
+    var totalfuel = gas * distance;
+    return totalfuel;
+};
+var gasUsage = fuel(answerM, 1000 );
+    console.log("You will consume " + gasUsage + " gallons of fuel on this trip");

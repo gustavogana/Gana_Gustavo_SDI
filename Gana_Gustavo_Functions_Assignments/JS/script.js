@@ -1,5 +1,5 @@
 /*
- * Created by GustavoGana on 6/24/15.
+ * Created by GustavoGana on 6/24/15. Functions Assignment
  */
 var multiplication = prompt("Enter a number to multiply by");//asking for a number to multiply by
     console.log("you choose " + multiplication + " to multiply");//console display number
@@ -42,11 +42,11 @@ function ageTotal(time){//age calculation
 }
 ageTotal(age);//prompt age
 ageTotal(1);//is only 1 year old
-ageTotal(100);//if one hundrd years old
+ageTotal(100);//if one hundred years old
 
 var fuel = function (gas, distance) {//fuel consumption
-    var totalfuel = gas * distance;//calculations for fuel consumption
-    return totalfuel;//return value
+    var totalFuel = gas * distance;//calculations for fuel consumption
+    return totalFuel;//return value
 };
 var gasUsage = fuel(answerM, 1000 );//multiplication answer and 1000 mile a gallon
     console.log("You will consume " + gasUsage + " gallons of fuel on this trip");//console display gas usage message
